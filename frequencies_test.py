@@ -3,6 +3,8 @@
 
 from frequencies import frequencies
 
+
+
 def test_mixed_list():
     input = ['0', 4,4,'4','d','d','e',0,'a','d','4']
     output = frequencies(input)
@@ -32,3 +34,6 @@ def test_example_2():
     assert output['100'] == 4
     assert output['Hello'] == 1
     assert 100 not in output.keys()
+
+
+    
